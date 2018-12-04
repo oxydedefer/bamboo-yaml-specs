@@ -8,3 +8,6 @@ stages:
       - scripts:
         - ./scripts/test-script.sh
         interpreter: shell
+      - scripts:
+        - ./scripts/test-script2.sh
+        interpreter: shell
