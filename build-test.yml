@@ -1,0 +1,10 @@
+project:
+     key: AM
+     plan:
+       key: BT
+       name: Build Test Artifacts
+stages:
+  - jobs:
+      - scripts:
+        - ./scripts/test-script.sh
+        interpreter: shell
