@@ -11,3 +11,8 @@ stages:
       - scripts:
         - ./scripts/test-script2.sh
         interpreter: shell
+stages:
+   - jobs:
+       - scripts:
+       - ./scripts/test-script.sh
+       interpreter: shell 
