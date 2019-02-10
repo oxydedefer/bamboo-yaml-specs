@@ -4,15 +4,10 @@ project:
        key: BT
        name: Build Test Artifacts
 stages:
-  - jobs:
+   - jobs:
       - scripts:
         - ./scripts/test-script.sh
         interpreter: shell
       - scripts:
         - ./scripts/test-script2.sh
         interpreter: shell
-stages:
-   - jobs:
-      - scripts:
-        - ./scripts/test-script3.sh
-        interpreter: shell 
